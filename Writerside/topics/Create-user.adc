@@ -22,3 +22,10 @@ You can add the sample inside the <sample> element or include it from a file usi
         </sample>
     </response>
 </api-endpoint>
+
+
+[plantuml, format="png", id="myDiagram", width="200px"]
+----
+Bob->Alice : hello
+Alice -> Bob : hi
+----
